@@ -26,7 +26,6 @@ const HomeEle = () => {
                             <span>215</span>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
