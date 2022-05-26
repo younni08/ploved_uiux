@@ -21,6 +21,5 @@ const ChatEle = ( ) => {
     )
 }
 
-// verified location
 
 export default ChatEle;
