@@ -1,8 +1,9 @@
 import React from "react";
+import {Link} from "react-router-dom"
 
 const HomeInstaEle = () => {
     return (
-        <div className="insta_ele">
+        <Link to="/article" className="insta_ele">
             <div className="insta_ele_lv1">
                 <img src="./sample.jpg" alt="sample" />
                 <div>
@@ -36,7 +37,7 @@ const HomeInstaEle = () => {
                 </div>
             </div>
             
-        </div>
+        </Link>
     )
 }
 

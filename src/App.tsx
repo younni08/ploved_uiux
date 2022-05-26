@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Article from './components/article/article';
 import HomeInsta from './components/home_insta/home_insta';
+import Search from './components/search/search';
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <div>
         <Router>
           <Routes >
-            <Route path="/" element={<Home />} />
-            <Route path="/insta" element={<HomeInsta />} />
+            <Route path="/home2" element={<Home />} />
+            <Route path="/" element={<HomeInsta />} />
             <Route path="/article" element={<Article />} />
+            <Route path="/search" element={<Search />} />
           </Routes >
           <BottomNavi />
         </Router>

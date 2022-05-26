@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const HomeEle = () => {
     return (
         <div className="home_ele">
