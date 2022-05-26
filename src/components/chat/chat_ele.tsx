@@ -9,7 +9,7 @@ const ChatEle = ( ) => {
             </div>
             <div className="chat_ele_right">
                 <div>
-                    <span>Qwedna</span>
+                    <span>Shin SSG</span>
                     <div>
                         <span><i className="xi-time-o"></i></span>
                         <span>15min ago</span>
@@ -20,5 +20,7 @@ const ChatEle = ( ) => {
         </Link>
     )
 }
+
+// verified location
 
 export default ChatEle;

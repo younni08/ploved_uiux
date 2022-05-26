@@ -12,6 +12,7 @@ import Search from './components/search/search';
 import Chat from './components/chat/chat';
 import ChatChat from './components/chat/chatchat';
 import Profile from './components/profile/profile';
+import Seller from './components/seller/seller';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/chat" element={<Chat />} />
             <Route path="/chatchat" element={<ChatChat />} />
             <Route path="/profile" element={<Profile />} />
+            <Route path="/seller" element={<Seller />} />
           </Routes >
           <BottomNavi />
         </Router>

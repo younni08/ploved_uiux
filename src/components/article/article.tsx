@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Article =  () => {
     return (
@@ -10,12 +11,17 @@ const Article =  () => {
             <div className="article_lv1">
                 <img src="./sample.jpg" alt="sample" />
             </div>
-            <div className="article_lv2">
+            <Link to="/seller" className="article_lv2">
                 <div className="article_lv21">
-                    <span>Qwedna</span>
                     <div>
-                        <span><i className="xi-map-o"></i></span>
-                        <span>Unit C. No.5</span>
+                        <img src="./default1.png" alt="default" />
+                    </div>
+                    <div>
+                        <span>Shin SSG</span>
+                        <div>
+                            <span><i className="xi-map-o"></i></span>
+                            <span>Unit C. No.5</span>
+                        </div>
                     </div>
                 </div>
                 <div className="article_lv22">
@@ -31,7 +37,7 @@ const Article =  () => {
                         <span>(1000)</span>
                     </div>
                 </div>
-            </div>
+            </Link>
             <div className="article_lv3">
                 {/* <span>Selling camera almost brand new</span> */}
                 <span>Selling camera almost brand</span>

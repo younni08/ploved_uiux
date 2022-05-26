@@ -34,10 +34,15 @@ const ChatChat = () => {
                     <span>Hello</span>
                 </div>
                 <div className="chatchat_you">
-                    <span>Lego</span>
                     <div>
-                        <span>Hello</span>
-                        <span>1</span>
+                        <img src="./default1.png" alt="default" />
+                    </div>
+                    <div>
+                        <span>Shin SSG</span>
+                        <div>
+                            <span>Hello</span>
+                            <span>1</span>
+                        </div>
                     </div>
                 </div>
                 <div className="chatchat_input">
