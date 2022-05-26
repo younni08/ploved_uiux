@@ -13,7 +13,7 @@ const BottomNavi = () => {
                 <span>Search</span>
             </Link>
             <Link to="/chat" className="bottomnavi_ele">
-                <span><i className="xi-comment-o xi-x"></i></span>
+            <span><i className="xi-speech-o"></i></span>
                 <span>Chat</span>
             </Link>
             <Link to="/profile" className="bottomnavi_ele">

@@ -9,6 +9,9 @@ import {
 import Article from './components/article/article';
 import HomeInsta from './components/home_insta/home_insta';
 import Search from './components/search/search';
+import Chat from './components/chat/chat';
+import ChatChat from './components/chat/chatchat';
+import Profile from './components/profile/profile';
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
             <Route path="/" element={<HomeInsta />} />
             <Route path="/article" element={<Article />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/chat" element={<Chat />} />
+            <Route path="/chatchat" element={<ChatChat />} />
+            <Route path="/profile" element={<Profile />} />
           </Routes >
           <BottomNavi />
         </Router>

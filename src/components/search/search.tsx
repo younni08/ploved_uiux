@@ -20,6 +20,16 @@ const Search = () => {
                 </div>
             </div>
             <div className="search_lv1">
+                <span>Hot Search</span>
+                <div>
+                    <span>Laptop</span>
+                    <span>Laptop</span>
+                    <span>Laptop</span>
+                    <span>Laptop</span>
+                    <span>Laptop</span>
+                    <span>Laptop</span>
+                    <span>Laptop</span>
+                </div>
 
             </div>
 
