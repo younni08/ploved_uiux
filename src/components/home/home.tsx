@@ -7,12 +7,15 @@ const Home = () => {
         <div className="home">
             <HomeNavi />
             <div className="home_list">
-                <HomeEle />
-                <HomeEle />
-                <HomeEle />
-                <HomeEle />
-                <HomeEle />
-                <HomeEle />
+                
+                <div className="home_insta_list">
+                    <HomeEle />
+                    <HomeEle />
+                    <HomeEle />
+                    <HomeEle />
+                    <HomeEle />
+                    <HomeEle />
+                </div>
             </div>
         </div>
     )

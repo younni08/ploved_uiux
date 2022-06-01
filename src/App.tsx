@@ -13,6 +13,7 @@ import Chat from './components/chat/chat';
 import ChatChat from './components/chat/chatchat';
 import Profile from './components/profile/profile';
 import Seller from './components/seller/seller';
+import Local from './components/local/local';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/" element={<HomeInsta />} />
             <Route path="/article" element={<Article />} />
             <Route path="/search" element={<Search />} />
+            <Route path="/local" element={<Local />} />
             <Route path="/chat" element={<Chat />} />
             <Route path="/chatchat" element={<ChatChat />} />
             <Route path="/profile" element={<Profile />} />
