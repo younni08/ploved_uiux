@@ -373,6 +373,20 @@ body {
   font-weight: bold;
   color:#fff;
 }
+.localgroup{
+  display:flex;
+  width:calc(100% - 20px);
+  flex-direction: column;
+  margin:10px 0px 0px 0px;
+  background:#fff;
+  padding:10px;
+}
+.localgroup > div:nth-child(1){
+
+}
+.localgroup > div:nth-child(2){
+
+}
 /* -------------------- insta -------------------- */
 .ploved{
   display:flex;
