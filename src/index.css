@@ -53,6 +53,7 @@ body {
   border-top:solid 1px #eaeaea;
   align-items: center;
   justify-content: space-between;
+  background: #fff;
 }
 .bottomnavi_ele{
   display:flex;
@@ -209,7 +210,7 @@ body {
   justify-content: space-between;
   font-size: 0.8rem;
   color:#7f7f7f;
-  margin:5px 0px 5px 0px;
+  margin:5px 0px 15px 0px;
 }
 .art_lv3_left{
   display:flex;
@@ -225,9 +226,16 @@ body {
 }
 .article_lv31{
   display:flex;
-  width:100%;
+  width:calc(100% - 20px);
   justify-content: space-between;
-  margin:0px 0px 10px 0px;
+  align-items: center;
+  margin:0px 0px 0px 0px;
+  padding:10px;
+  height:30px;
+  border-top:solid 1px #eaeaea;
+  position:absolute;
+  bottom:0px;
+  background:#fff;
 }
 .article_lv31 > div:nth-child(1){
   display:flex;
@@ -317,13 +325,153 @@ body {
   font-size: 0.8rem;
 }
 /* -------------------- insta -------------------- */
+.local{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:550px;
+  background: #eaeaea;
+}
+.local_top{
+  display:flex;
+  flex-direction: column;
+  width:calc(100% - 20px);
+  background:#fff;
+  padding:10px;
+}
+.local_top > div:nth-child(1){
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width:100%;
+}
+.local_top > div:nth-child(1) > div{
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.local_top > div:nth-child(1) > div > span:last-child{
+  display:flex;
+  margin:5px 0px 0px 3px;
+}
+.local_top > div:nth-child(2){
+  display:flex;
+  width:100%;
+  margin:10px 0px 0px 0px;
+  font-size: 0.8rem;
+}
+.local_top > div:nth-child(2) > span{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px 10px;
+  border-radius: 25px;
+  color:#7f7f7f;
+}
+.local_top > div:nth-child(2) > span.on{
+  background:#f08080;
+  font-weight: bold;
+  color:#fff;
+}
+/* -------------------- insta -------------------- */
+.ploved{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height:550px;
+  background: #eaeaea;
+}
+.ploved_top{
+  display:flex;
+  flex-direction: column;
+  width:calc(100% - 20px);
+  background:#fff;
+  padding:10px;
+  z-index: 10;
+}
+.ploved_top > div:nth-child(1){
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width:100%;
+}
+.ploved_top > div:nth-child(1) > div{
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.ploved_top > div:nth-child(1) > div > span:last-child{
+  display:flex;
+  margin:5px 0px 0px 3px;
+}
+.ploved_top > div:nth-child(2){
+  display:flex;
+  width:100%;
+  margin:10px 0px 0px 0px;
+  font-size: 0.8rem;
+}
+.ploved_top > div:nth-child(2) > span{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding:5px 10px;
+  border-radius: 25px;
+  color:#7f7f7f;
+}
+.ploved_top > div:nth-child(2) > span.on{
+  background:#f08080;
+  font-weight: bold;
+  color:#fff;
+}
+.ploved_cate{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+  background:#fff;
+  margin:-1px 0px 0px 0px;
+}
+.ploved_cate > div:nth-child(1){
+  display:flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding:10px 10px 0px 10px;
+  width:calc(100% - 20px);
+}
+.ploved_cate > div:nth-child(1) > div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8rem;
+  width:calc(20% - 4px);
+  margin:0px 5px 10px 0px;
+  /* background:#dbdbdb; */
+  border-radius: 5px;
+}
+.ploved_cate > div:nth-child(1) > div > span:first-child{
+  color:#f08080;
+}
+.ploved_cate > div:nth-child(1) > div:nth-child(5n){
+  margin:0px 0px 10px 0px;
+}
+.ploved_cate > div:nth-child(2){
+  display:flex;
+  width:100%;
+}
+.ploved_list{
+  display:flex;
+  flex-direction: column;
+  margin:10px 0px 0px 0px;
+  background: #fff;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.1);
+}
+/* -------------------- insta -------------------- */
 .insta{
   display:flex;
   flex-direction: column;
   width:100%;
   height:550px;
   background: #eaeaea;
-  background:#eaeaea;
 }
 .insta_list{
   display:flex;
@@ -390,14 +538,16 @@ body {
   font-weight: bold;
   color:#fff;
   font-size: 0.8rem;
+  box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
 }
 .insta_temp{
   display: flex;
   flex-direction: column;
   width:calc(100% - 20px);
-  padding:10px;
+  padding:15px 10px 10px 10px;
   background: #fff;
-  margin:10px 0px 0px 0px;
+  margin:10px 0px 10px 0px;
+  box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.1);
 }
 .insta_temp > div:nth-child(1){
   display:flex;
@@ -421,9 +571,63 @@ body {
 .insta_temp > div:nth-child(2){
   display:flex;
   width:100%;
+  margin:10px 0px 0px 0px;
 }
 .insta_temp_ele{
-  
+  display: flex;
+  flex-direction: column;
+  min-width:150px;
+  margin: 0px 10px 0px 0px;
+  overflow: hidden;
+}
+.insta_temp_ele > div:nth-child(1){
+  display: flex;
+  width:calc(100% - 2px);
+  border:solid 1px #eaeaea;
+  border-radius: 10px;
+  overflow: hidden;
+  position:relative;
+}
+.insta_temp_ele > div:nth-child(1) > img{
+  object-fit: cover;
+  width:100%;
+  height: 100%;
+}
+.insta_temp_ele > div:nth-child(1) > span{
+  position:absolute;
+  bottom: 5px;
+  right:5px;
+  color:#ff0000;
+}
+.insta_temp_ele > div:nth-child(2){
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  align-items: center;
+}
+.insta_temp_ele > div:nth-child(2) > span{
+  display:block;
+  width:calc(100% - 10px);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  font-size: 0.8rem;
+  margin:3px 0px 0px 0px;
+}
+.insta_temp_ele > div:nth-child(2) > div{
+  display:flex;
+  justify-content: space-between;
+  width:calc(100% - 10px);
+  margin:3px 0px 0px 0px;
+}
+.insta_temp_ele > div:nth-child(2) > div > span{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.insta_temp_ele > div:nth-child(2) > div > div{
+  display:flex;
+  font-size: 0.8rem;
+  color:#7f7f7f;
 }
 /* -------------------- home -------------------- */
 .insta_ele{
@@ -551,6 +755,7 @@ body {
 .home_ele{
   display:flex;
   width:calc(100% - 20px);
+  text-decoration: none;
   padding:10px 10px 0px 10px;
 }
 .home_ele > div{
@@ -608,6 +813,7 @@ body {
   font-size: 0.8rem;
   font-weight: bold;
   margin:2px 0px 0px 0px;
+  color:#f08080;
 }
 .home_ele_right > div:nth-child(2){
   display:flex;

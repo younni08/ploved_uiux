@@ -4,7 +4,7 @@ const HomeNavi = () => {
     return (
         <div className="home_navi">
             <div>
-                <span>Ploved</span>
+                <span><i className="xi-apps"></i></span>
                 <div>
                     <span>Unit C. No.5</span>
                     <span><i className="xi-angle-down-min"></i></span>

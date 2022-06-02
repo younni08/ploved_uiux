@@ -14,6 +14,7 @@ import ChatChat from './components/chat/chatchat';
 import Profile from './components/profile/profile';
 import Seller from './components/seller/seller';
 import Local from './components/local/local';
+import Ploved from './components/ploved/ploved';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Routes >
             <Route path="/home2" element={<Home />} />
             <Route path="/" element={<HomeInsta />} />
+            <Route path="/ploved" element={<Ploved />} />
             <Route path="/article" element={<Article />} />
             <Route path="/search" element={<Search />} />
             <Route path="/local" element={<Local />} />

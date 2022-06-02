@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const BottomNavi = () => {
     return (
         <div className="bottomnavi">
-            <Link to="/" className="bottomnavi_ele">
+            <Link to="/ploved" className="bottomnavi_ele">
                 <span><i className="xi-heart-o xi-x"></i></span>
                 <span>Ploved</span>
             </Link>

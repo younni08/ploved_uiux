@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 const HomeEle = () => {
     return (
-        <div className="home_ele">
+        <Link to="/article" className="home_ele">
             <div>
                 <div className="home_ele_left">
                     <img src="./sample.jpg" alt="sample" />
@@ -18,7 +19,7 @@ const HomeEle = () => {
                             <span><i className="xi-time-o"></i> 15min ago</span>
                         </div>
                         <div>
-                            <span>1500 Peso</span>
+                            <span>PHP. 1500</span>
                         </div>
                     </div>
                     <div>
@@ -29,7 +30,7 @@ const HomeEle = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </Link>
     )
 }
 

@@ -5,7 +5,7 @@ const Article =  () => {
     return (
         <div className="article">
             <div className="article_navi">
-                <span><i className="xi-angle-left xi-x"></i></span>
+                <span><i className="xi-arrow-left"></i></span>
                 <span><i className="xi-ellipsis-v xi-x"></i></span>
             </div>
             <div className="article_lv1">
@@ -60,18 +60,18 @@ const Article =  () => {
                         </div>
                     </div>
                 </div>
-                <div className="article_lv31">
-                    <div>
-                        <span>1600</span>
-                        <span>Peso</span>
-                    </div>
-                    <div>
-                        <span><i className="xi-heart-o"></i></span>
-                        <span>Chat</span>
-                    </div>
+                <div>
+                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 밑에 가격이랑 chat 뜨는게 bottom navi 위로</span>
+                </div>
+            </div>
+            <div className="article_lv31">
+                <div>
+                    <span>1600</span>
+                    <span>Peso</span>
                 </div>
                 <div>
-                    <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</span>
+                    <span><i className="xi-heart-o"></i></span>
+                    <span>Chat</span>
                 </div>
             </div>
             <div className="article_lv4">

@@ -27,6 +27,66 @@ const HomeInsta = () => {
                 </div>
                 <div className="insta_temp">
                     <div>
+                        <span>Ploved's best picks</span>
+                        <div>
+                            <span>See all</span>
+                            <span><i className="xi-angle-right-min"></i></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="insta_temp">
+                    <div>
                         <span>Pre-loved item</span>
                         <div>
                             <span>See all</span>
@@ -40,7 +100,99 @@ const HomeInsta = () => {
                                 <span><i className="xi-heart-o"></i></span>
                             </div>
                             <div>
-                                <span>selling old image</span>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div className="insta_temp">
+                    <div>
+                        <span>Best Local Shops</span>
+                        <div>
+                            <span>See all</span>
+                            <span><i className="xi-angle-right-min"></i></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
+                                <div>
+                                    <span>PHP 3,5000</span>
+                                    <div>
+                                        <span><i className="xi-time-o"></i></span>
+                                        <span>1w ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="insta_temp_ele">
+                            <div>
+                                <img src="./default1.png" alt="default" />
+                                <span><i className="xi-heart-o"></i></span>
+                            </div>
+                            <div>
+                                <span>selling old image camera</span>
                                 <div>
                                     <span>PHP 3,5000</span>
                                     <div>

@@ -4,14 +4,9 @@ import ChatEle from './chat_ele';
 const Chat = () => {
     return (
         <div className="chat">
-            <div className="home_navi">
-                <div>
-                    <span>Chat</span>
-                    <span></span>
-                </div>
-                <div>
-                    <span><i className="xi-bell-o"></i></span>
-                </div>
+            <div className="profile_navi">
+                <span>Chat</span>
+                <span><i className="xi-cog"></i></span>
             </div>
             <div className="chat_list">
                 <ChatEle />
