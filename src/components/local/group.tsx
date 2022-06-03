@@ -4,8 +4,11 @@ const LocalGroup = () => {
     return (
         <div className="localgroup">
             <div>
-                <span>Group neab by</span>
-                <span>See all</span>
+                <span>Local Group</span>
+                <div>
+                    <span>See all</span>
+                    <span><i className="xi-angle-right-min"></i></span>
+                </div>
             </div>
             <div>
                 <div>
@@ -14,7 +17,6 @@ const LocalGroup = () => {
                     </div>
                     <div>
                         <span>Local Group</span>
-                        <span>M 2.3k</span>
                     </div>
                 </div>
                 <div>
@@ -23,7 +25,6 @@ const LocalGroup = () => {
                     </div>
                     <div>
                         <span>Local Group</span>
-                        <span>M 2.3k</span>
                     </div>
                 </div>
                 <div>
@@ -32,7 +33,6 @@ const LocalGroup = () => {
                     </div>
                     <div>
                         <span>Local Group</span>
-                        <span>M 2.3k</span>
                     </div>
                 </div>
                 <div>
@@ -41,7 +41,6 @@ const LocalGroup = () => {
                     </div>
                     <div>
                         <span>Local Group</span>
-                        <span>M 2.3k</span>
                     </div>
                 </div>
             </div>
