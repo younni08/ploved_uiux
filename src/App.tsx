@@ -15,6 +15,7 @@ import Profile from './components/profile/profile';
 import Seller from './components/seller/seller';
 import Local from './components/local/local';
 import Ploved from './components/ploved/ploved';
+import Sell from './components/sell/sell';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
             <Route path="/search" element={<Search />} />
             <Route path="/local" element={<Local />} />
             <Route path="/chat" element={<Chat />} />
+            <Route path="/sell" element={<Sell />} />
             <Route path="/chatchat" element={<ChatChat />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/seller" element={<Seller />} />
